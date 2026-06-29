@@ -1,0 +1,40 @@
+@page
+@model LojaDepCrud.Pages.CadastrarProdutosModel
+
+
+<div class="container mt-5">
+    <h1 class="mb-4"> Cadastrar Produtos </h1>
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label"> Nome do Produto </label>
+            <input asp-for="Produtos.Nome" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Categoria </label>
+            <input asp-for="Produtos.Categoria" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Tamanho </label>
+
+
+            <input asp-for="Produtos.Tamanho" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Preco </label>
+            <input asp-for="Produtos.Preco" class="form-control">
+
+            
+        <div class="mb-3">
+            <label class="form-label"> Estoque </label>
+            <input asp-for="Produtos.Estoque" class="form-control">
+        </div>
+        <button class="btn btn-success"> Salvar </button>
+        <a href="/Produtos" class="btn btn-secondary"> Voltar </a>
+    </form>
+</div>

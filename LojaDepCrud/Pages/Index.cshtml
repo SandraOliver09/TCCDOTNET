@@ -1,0 +1,175 @@
+﻿@page
+@{
+    string loja = "Loja de Vestuário";
+}
+
+<p class="text-center bg-success p-3 m-0">Frete Grátis a partir R$150,00 em suas compras </p>
+
+<div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselProdutos" data-bs-slide-to="0" class="active"> </button>
+        <button type="button" data-bs-target="#carouselProdutos" data-bs-slide-to="1"> </button>
+        <button type="button" data-bs-target="#carouselProdutos" data-bs-slide-to="2"> </button>
+    </div>
+    <!-- Imagens -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.riachuelo.com.br/_next/image?url=https%3A%2F%2Fmidia.fotos-riachuelo.com.br%2Ffotos%2Fmegamenu%2Fhome%2F2026%2Fjunho%2FMEC-2724%2F2%2FHero-MEC-2724-flash-promo-30off1.jpg&w=1920&q=85" class="d-block w-100" alt="Produto 1">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.riachuelo.com.br/_next/image?url=https%3A%2F%2Fmidia.fotos-riachuelo.com.br%2Ffotos%2Fmegamenu%2Fhome%2F2026%2Fsaldos%2FMEC-2628%2F2%2FHero-MEC-2628-saldos-para-elas.jpg&w=1920&q=85" class="d-block w-100" alt="Produto 2">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.riachuelo.com.br/_next/image?url=https%3A%2F%2Fmidia.fotos-riachuelo.com.br%2Ffotos%2Fmegamenu%2Fhome%2F2026%2Fjunho%2FMEC-2628%2F1%2FHero-MEC-2628-alto-inverno.jpg&w=1920&q=85" class="d-block w-100" alt="Produto 3">
+        </div>
+    </div>
+
+    <!-- Botão Anterior -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <!-- Botão Próximo -->
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="bg-verde-escuro text-white p-3">
+
+<div class="container mt-5 text-center">
+    <h1 class="display-3">  
+        @loja
+    </h1>
+    <div class="mt-5">
+        <h2 class="text-center mb-4">
+            Escolha seu Produto
+        </h2>
+
+        <div class="row">
+
+            <!-- Produto 1 -->
+            <div class="col-md-3 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="https://static.riachuelo.com.br/RCHLO/16349571001/portrait/6e139c23d45019bd76b0162208697c6a1291cdd4.jpg?imwidth=400" class="card-img-top" alt="Camisa">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Camisa Masculina
+                        </h5>
+
+                        <p class="text-success fw-bold fs-4">
+                            R$ 69,90
+                        </p>
+
+                        <a target="_blank" class="btn btn-outline-success w-100" href="https://www.riachuelo.com.br/polo-masculina-regular-listrada-piet-pool-azul-16349571_sku_sku?msclkid=797f0a9a47651452fc0560af787477ad&utm_source=bing&utm_medium=cpc&utm_campaign=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras&utm_term=riachuelo&utm_content=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras_Institucional">
+                            Comprar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="col-md-3 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="https://static.riachuelo.com.br/RCHLO/16379470006/portrait/8bca4b5a6b2382b768418706f88f977ead931912.jpg?imwidth=400" class="card-img-top" alt="Tênis">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Camiseta Esportivo
+                        </h5>
+
+                        <p class="text-success fw-bold fs-4">
+                            R$ 149,90
+                        </p>
+
+                        <a target="_blank" class="btn btn-outline-success w-100" href="https://www.riachuelo.com.br/polo-masculina-regular-listrada-piet-pool-azul-16349571_sku_sku?msclkid=797f0a9a47651452fc0560af787477ad&utm_source=bing&utm_medium=cpc&utm_campaign=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras&utm_term=riachuelo&utm_content=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras_Institucional">
+                            Comprar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="col-md-3 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="https://static.riachuelo.com.br/RCHLO/16167139001/portrait/fd68cbcb785e41de2f99c5855407df070aa9e72a.jpg?imwidth=400" class="card-img-top" alt="Relógio">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Jaqueta Feminina
+                        </h5>
+
+                        <p class="text-success fw-bold fs-4">
+                            R$ 189,90
+                        </p>
+
+                        <a target="_blank" class="btn btn-outline-success w-100" href="https://www.riachuelo.com.br/polo-masculina-regular-listrada-piet-pool-azul-16349571_sku_sku?msclkid=797f0a9a47651452fc0560af787477ad&utm_source=bing&utm_medium=cpc&utm_campaign=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras&utm_term=riachuelo&utm_content=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras_Institucional">
+                            Comprar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Produto 4 -->
+            <div class="col-md-3 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="https://static.riachuelo.com.br/RCHLO/16181301001/portrait/1ac585316eb8f88320a6ca5679bfd61f3c58021f.jpg?imwidth=400" class="card-img-top" alt="Mochila">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">
+                            Conjunto de Inverno
+                        </h5>
+
+                        <p class="text-success fw-bold fs-4">
+                            R$ 190,90
+                        </p>
+
+                        <a target="_blank" class="btn btn-outline-success w-100" href="https://www.riachuelo.com.br/polo-masculina-regular-listrada-piet-pool-azul-16349571_sku_sku?msclkid=797f0a9a47651452fc0560af787477ad&utm_source=bing&utm_medium=cpc&utm_campaign=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras&utm_term=riachuelo&utm_content=CA_Bing_PRF_Venda_Always-On_Search_Top-Palavras_Institucional">
+                            Comprar
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="my-5">
+        <p class="lead">
+            Sistema  de Departamento de Vestuário
+        </p>
+        <a href="/Produtos"
+        class="btn btn-outline-success">
+            Cadastrar
+        </a>
+    </div>
+</div>
+
+</div>
+

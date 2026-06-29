@@ -1,0 +1,47 @@
+@page
+@model LojaDepCrud.Pages.ProdutosModel
+
+<div class="container mt-5">
+    <h1 class="mb-4">
+         Produtos CRUD de Departamento de Vestuário
+    </h1>
+    <a href="/CadastrarProdutos"
+       class="btn btn-success mb-3">
+        Nova Produto
+    </a>
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Tamanho</th>
+                <th>Preco</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var item in Model.produtos)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nome</td>
+                <td>@item.Categoria</td>
+                <td>@item.Tamanho</td>
+                <td>@item.Preco</td>
+                <td>@item.Estoque</td>
+                <td>
+                    <a href="/EditarProdutos?id=@item.Id"
+                       class="btn btn-warning">
+                        Editar
+                    </a>
+                    <a href="/ExcluirProdutos?id=@item.Id"
+                       class="btn btn-danger">
+                        Excluir
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

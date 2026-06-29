@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LojaDepCrud
+build_property.RootNamespace = LojaDepCrud
+build_property.ProjectDir = C:\Users\Aluno\Desktop\Sandra Dotnet\LojaDepCrud\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Aluno\Desktop\Sandra Dotnet\LojaDepCrud
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Bolsa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9sc2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/CadastrarProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cmFyUHJvZHV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/CalcadosCintos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY2Fkb3NDaW50b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/EditarProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyUHJvZHV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/ExcluirProdutos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhjbHVpclByb2R1dG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Feminino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVtaW5pbm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Infantil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mYW50aWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Masculino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY3VsaW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Novidades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92aWRhZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/outlet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcb3V0bGV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Produtos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aluno/Desktop/Sandra Dotnet/LojaDepCrud/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ctib2p2zd9

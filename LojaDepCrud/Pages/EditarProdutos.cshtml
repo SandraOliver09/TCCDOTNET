@@ -1,0 +1,48 @@
+@page
+@model LojaDepCrud.Pages.EditarProdutosModel
+
+
+<div class="container mt-5">
+
+
+    <h1 class="mb-4"> Editar Produtos </h1>
+    <form method="post">
+        <input asp-for="produtos.Id" type="hidden">
+
+
+        <div class="mb-3">
+            <label class="form-label"> Nome do Produtos </label>
+            <input asp-for="produtos.Nome" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Categoria </label>
+            <input asp-for="produtos.Categoria" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Tamanho </label>
+            <input asp-for="produtos.Tamanho" class="form-control">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label"> Preco </label>
+            <input asp-for="produtos.Preco" class="form-control">
+
+            <div class="mb-3">
+            <label class="form-label"> Estoque </label>
+            <input asp-for="produtos.Estoque" class="form-control">
+        </div>
+
+
+        <button class="btn btn-warning"> Atualizar </button>
+
+
+        <a href="/Produtos" class="btn btn-secondary"> Voltar </a>
+    </form>
+</div>
+
+
